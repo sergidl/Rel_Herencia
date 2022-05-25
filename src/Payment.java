@@ -5,8 +5,6 @@ public class Payment {
 		setAmount(amount);
 	}
 	
-	public Payment() {
-	}
 
 	public Float getAmount() {
 		return amount;
