@@ -1,7 +1,8 @@
-public class Sale extends Payment {
+public class Sale {
 
 	private String id;
 	private String product;
+	public Payment payment;
 	private static Float pvp;
 	Sale (String id, String product, Float pvp) {
 		setId(id);
@@ -37,6 +38,7 @@ public class Sale extends Payment {
 	public void setPayment(CreditCardPayment p) {
 		p.DetailPayment();
 	}
+
 
 
 
